@@ -5,3 +5,6 @@
 const greet = (name) => {
   return `Hey ${name}!`;
 }
+
+//Otherway:
+const greet = name => `Hey ${name}!`;
