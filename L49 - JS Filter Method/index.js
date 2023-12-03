@@ -1,4 +1,1 @@
-function validUserNames(usernames) {
-  // your code here
-  return arr.filter(name => name.length < 10);
-}
+const validUserNames = usernames => usernames.filter(user => user.length < 10);
